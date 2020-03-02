@@ -1,0 +1,204 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: 'Roboto';
+   
+}
+
+/*----------Inicio Barra header------------*/
+
+.o-container-header-bar{
+    font-weight: 600;
+
+}
+
+.o-container-header-bar ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+}
+
+.o-container-header-bar li{ 
+
+}
+
+.o-container-header-bar li a{ 
+    display: block;
+    color: black;
+    text-align: center;
+    height: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.o-container-header-bar button{ 
+    margin: 1rem;
+    border-radius: 5px;
+    background: #FEB618;
+    color: white;
+    border: none;
+    width: 8rem;
+    height: 1.5rem;
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+    font-weight: 700;
+
+}
+
+.o-search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.o-icon-search{
+    display: flex;
+    align-items: center;
+}
+
+.o-icon-container button{
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+}
+
+.o-icon-container button img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.o-bar-container{
+    padding: 0.5rem;
+    background-color: #FEB618;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}                                               
+
+.o-bar-search{
+    border: none;
+    text-align: center;
+}
+
+
+.o-container-header-bar li a:hover{ 
+    background-color: #FEB618;
+}
+
+/*--------Fin Barra Header-------*/
+
+/*--------Inicio Primer Container-------*/
+
+.o-firts-container{
+    margin: 5rem 1rem 1rem 4rem;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #74CCA6;
+    border-radius: 10px;
+    
+}
+
+.o-title-categories{
+    margin: 1rem;
+
+}
+
+.o-title-categories h2{
+    margin: 0rem;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.o-list-categories{
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.o-list-categories h3{
+    margin: 1rem;
+}
+
+.o-list-categories a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.o-list-categories a:hover{
+    background-color: #FEB618;
+    box-shadow: 5px 10px 8px rgba(109, 109, 109, 0.507);
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+
+/*--------Fin Primer Container-------*/
+
+/*--------Inicio Segundo Container-------*/
+
+.o-second-container{
+    margin: 5rem 4rem 1rem 0rem;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #74CCA6;
+    border-radius: 10px;
+
+}
+
+.o-title-restaurants{
+    margin: 2rem 0rem 0rem 1rem;
+}
+
+.o-title-restaurants h2{
+    margin: 0rem;
+    font-weight: 400;
+}
+
+.o-restaurants-container{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.o-restaurant{
+    display: flex;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+
+
+}
+
+.o-restaurant img{
+    width: 15rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+.o-description-container{
+    padding: 1rem;
+
+}
+.o-description-container h3{
+
+}
+
+.o-description-container p{
+    margin: 0;
+}
