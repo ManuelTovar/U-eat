@@ -1,0 +1,303 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: 'Roboto';
+   
+}
+
+/*----------Inicio Barra header------------*/
+
+.o-container-header-bar{
+    font-weight: 600;
+
+}
+
+.o-container-header-bar ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+}
+
+.o-container-header-bar li{ 
+
+}
+
+.o-container-header-bar li a{ 
+    display: block;
+    color: black;
+    text-align: center;
+    height: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.o-container-header-bar button{ 
+    margin: 1rem;
+    border-radius: 5px;
+    background: #FEB618;
+    color: white;
+    border: none;
+    width: 8rem;
+    height: 1.5rem;
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+    font-weight: 700;
+
+}
+
+.o-search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.o-icon-search{
+    display: flex;
+    align-items: center;
+}
+
+.o-icon-container button{
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+}
+
+.o-icon-container button img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.o-bar-container{
+    padding: 0.5rem;
+    background-color: #FEB618;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}                                               
+
+.o-bar-search{
+    border: none;
+    text-align: center;
+}
+
+
+.o-container-header-bar li a:hover{ 
+    background-color: #FEB618;
+}
+
+/*--------Fin Barra Header-------*/
+
+/*--------Inicio Primera Columna--------*/
+
+.o-firts-column-container{
+    margin: 1rem 1rem 0rem 2rem;
+    width: 57vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.o-title-container{
+    margin: 1rem;
+}
+
+.o-title-container h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 3rem 0rem 1rem 0rem;
+}
+
+.o-message-container{
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+.o-message-container p{
+margin: 0;
+
+}
+
+.o-button-container{
+    margin: 1rem;
+}
+
+.o-button-container button{
+    width: auto;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #FEB618;
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+}
+
+.o-img-panoramic{
+    display: flex;
+    justify-content: center;
+
+}
+
+.o-img-panoramic img{
+    max-height: 10rem;
+    width: 100%;
+    margin: 1rem 1rem 1rem 1rem;
+
+}
+
+.o-offer-container{
+    margin: 1rem;
+    padding: 0;    
+}
+
+.o-subtitles{
+    margin-top: 0rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.o-subtitles h4{
+    margin: 0;
+}
+
+.o-meals-offer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 1rem 1rem 1rem;
+
+}
+
+.o-img-container{
+    text-align: center;
+    
+}
+
+.o-img-container p{
+    margin: 0;
+    font-weight: 700;
+    color: #FEB618;
+}
+
+.o-img-container h4{
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+
+
+.o-img-offer{
+    margin: 1rem 0rem 0rem 0rem;
+    width: auto;
+    height: 150px;
+    border-radius: 90px ;
+    border: 1px solid #000000;
+}
+
+/*--------Fin Primera Columna--------*/
+
+/*--------Inicio Segunda Columna--------*/
+
+
+.o-second-column-container{
+    margin: 1rem 0rem 0rem 0rem;
+    width: 50vw;
+    height: auto;
+    background-color: #FEB618;
+    background-image: url(resources/Home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:-36rem -1rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+
+.o-card-container{
+    
+    margin: 0rem 1rem 3rem 0rem;
+    display: flex;    
+}
+
+.o-card{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0rem 1rem 0rem 1rem;
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+    
+}
+
+.o-card-title {
+    display: flex;
+
+}
+
+.o-info-restaurant{
+    margin-right: 1rem;
+}
+
+.o-info-restaurant h4{
+    padding: 0;
+    margin: 0;
+}
+
+.o-info-restaurant p{
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+.o-icon-location{
+    height: 2rem;
+    width: 2rem;
+    align-self: center;
+
+}
+
+.o-icon-star{
+    margin-left: 1px;
+    height: 1rem;
+    width: 1rem;
+    align-self: center;
+    float: right;
+}
+
+
+.o-card-content p{
+    font-weight: 400;
+    text-align: justify;
+}
+
+.o-card-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.o-card-price h3{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+
+}
+.o-card-price p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FEB618;
+}
