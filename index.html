@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>U-eat</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='Home.css'>
@@ -17,7 +17,7 @@
 
         <ul>
             <li><a href="#"> Logo U-eat </a></li>
-            <li><a href="#"> Oferta del dia </a></li>
+            <li><a href="#"> Oferta del día </a></li>
             <li><a href="#"> Parche u-eat </a></li>
             <li><a href="#"> Reserva tu mesa </a></li>
 
@@ -30,7 +30,7 @@
                 </div>
             </li>
             <li><a href="#"> Registrate </a></li>
-            <li><button>Iniciar Sesion</button></li>
+            <li><button>Iniciar Sesión</button></li>
         </ul>
 
     </div>
@@ -69,7 +69,7 @@
 
             <div class="o-subtitles">
                 <h3>En caliente</h3>
-                <h3>Mas...</h3>
+                <h3>Más...</h3>
             </div>
 
             <div class="o-meals-offer-container">
@@ -106,7 +106,14 @@
 
     <div class="o-second-column-container">
 
-        <div class="o-card-container">
+        <div class="o-arrow-buttons-container">
+
+            <button class="o-button-left" onclick="MoveLeft()"><img src="resources/back.png" alt="Icono flecha izquierda"></button>
+            <button class="o-button-right" onclick="MoveRight()"><img src="resources/next.png" alt="Icono flecha derecha"></button>
+
+        </div>
+
+        <div id="card-container" class="o-card-container">
 
             <div class="o-card">
 
@@ -116,7 +123,39 @@
 
                     <div class="o-info-restaurant">
                         <h4>Restaurante D'Cafe</h4>
-                        <p>2do Piso cafeteria central</p>
+                        <p>2do Piso cafetería central</p>
+                    </div>
+
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+
+                </div>
+
+                <div class="o-card-content">
+                    <h2>Restaurante Almuerzo Vegano</h2>
+                    <p>Un delicioso almuerzo vegano el cual contiene zetas pomodoro con un chiffonade de albahaca,
+                        brócoli, aguacate y pimentón</p>
+                </div>
+
+                <div class="o-card-price">
+                    <h3>$10.000</h3>
+                    <a href="#"><p>Pedir</p></a>
+                </div>
+
+            </div>
+
+            <div class="o-card">
+
+                <div class="o-card-title">
+
+                    <img class="o-icon-location" src="resources/Ubication.png" alt="Icono ubicacion">
+
+                    <div class="o-info-restaurant">
+                        <h4>Restaurante D'Cafe</h4>
+                        <p>2do Piso cafetería central</p>
                     </div>
 
                     <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
@@ -129,13 +168,13 @@
 
                 <div class="o-card-content">
                     <h2>Almuerzo Vegano</h2>
-                    <p>Un delicioso almuerzo vegano el cual contiene zetas pomodoro con un chiffonade de albaca,
-                        brocoli, aguacate y pimenton</p>
+                    <p>Un delicioso almuerzo vegano el cual contiene zetas pomodoro con un chiffonade de albahaca,
+                        brócoli, aguacate y pimentón</p>
                 </div>
 
                 <div class="o-card-price">
                     <h3>$10.000</h3>
-                    <p>Pedir</p>
+                    <a href="#"><p>Pedir</p></a>
                 </div>
 
             </div>
@@ -147,10 +186,12 @@
                     <img class="o-icon-location" src="resources/Ubication.png" alt="Icono ubicacion">
 
                     <div class="o-info-restaurant">
-                        <h4>Restaurante Cafe Sabor</h4>
-                        <p>1do Piso cafeteria central</p>
+                        <h4>Restaurante D'Cafe</h4>
+                        <p>2do Piso cafetería central</p>
                     </div>
 
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
                     <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
                     <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
                     <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
@@ -158,14 +199,14 @@
                 </div>
 
                 <div class="o-card-content">
-                    <h2>Almuerzo Ejecutivo</h2>
-                    <p>Almuerzo del dia principio de lentejas, frijoles o blanquillos junto con seco de
-                        carne de res, cerdo o pollo y arroz. </p>
+                    <h2>Almuerzo Vegano</h2>
+                    <p>Un delicioso almuerzo vegano el cual contiene zetas pomodoro con un chiffonade de albahaca,
+                        brócoli, aguacate y pimentón</p>
                 </div>
 
                 <div class="o-card-price">
-                    <h3>$12.000</h3>
-                    <p>Pedir</p>
+                    <h3>$10.000</h3>
+                    <a href="#"><p>Pedir</p></a>
                 </div>
 
             </div>
@@ -177,28 +218,32 @@
                     <img class="o-icon-location" src="resources/Ubication.png" alt="Icono ubicacion">
 
                     <div class="o-info-restaurant">
-                        <h4>Restaurante Fruits & Gourmet</h4>
-                        <p>3er Piso cafeteria central</p>
+                        <h4>Restaurante D'Cafe</h4>
+                        <p>2do Piso cafetería central</p>
                     </div>
 
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
+                    <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
                     <img class="o-icon-star" src="resources/star.png" alt="Icono estrella">
 
                 </div>
 
                 <div class="o-card-content">
-                    <h2>Filete de pollo</h2>
-                    <p>Filete de pollo asado, con arroz tajadas y jugo de lulo</p>
+                    <h2>Almuerzo Vegano</h2>
+                    <p>Un delicioso almuerzo vegano el cual contiene zetas pomodoro con un chiffonade de albahaca,
+                        brócoli, aguacate y pimentón</p>
                 </div>
 
                 <div class="o-card-price">
-                    <h3>$8.500</h3>
-                    <p>Pedir</p>
+                    <h3>$10.000</h3>
+                    <a href="#"><p>Pedir</p></a>
                 </div>
 
             </div>
 
         </div>
-
 
     </div>
 
