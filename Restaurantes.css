@@ -50,6 +50,8 @@ body{
     height: 1.5rem;
     box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
     font-weight: 700;
+    cursor:pointer;
+
 
 }
 
@@ -68,6 +70,7 @@ body{
     width: 2rem;
     height: 2rem;
     margin: 0;
+    cursor:pointer;
 }
 
 .o-icon-container button img{
@@ -93,6 +96,8 @@ body{
 
 .o-container-header-bar li a:hover{ 
     background-color: #FEB618;
+    color: white;
+
 }
 
 /*--------Fin Barra Header-------*/
@@ -104,8 +109,9 @@ body{
     width: 20vw;
     display: flex;
     flex-direction: column;
-    background-color: #74CCA6;
+    background-color: #FEB618;
     border-radius: 10px;
+    word-wrap: break-word;
     
 }
 
@@ -118,6 +124,7 @@ body{
     margin: 0rem;
     font-size: 2rem;
     font-weight: 600;
+    border-bottom: 2px solid black;
 
 }
 
@@ -138,7 +145,7 @@ body{
 }
 
 .o-list-categories a:hover{
-    background-color: #FEB618;
+    background-color: white;
     box-shadow: 5px 10px 8px rgba(109, 109, 109, 0.507);
     border-bottom: 1px solid black;
     border-radius: 10px;
@@ -154,13 +161,14 @@ body{
     width: 80vw;
     display: flex;
     flex-direction: column;
-    background-color: #74CCA6;
+    background-color: #FEB618;
     border-radius: 10px;
 
 }
 
 .o-title-restaurants{
-    margin: 2rem 0rem 0rem 1rem;
+    margin: 2rem 1rem 0rem 1rem;
+    border-bottom: 2px solid black;
 }
 
 .o-title-restaurants h2{
@@ -178,17 +186,18 @@ body{
 .o-restaurant{
     display: flex;
     margin: 1rem;
+    height: 15rem;
+    width: 26rem;
     border-radius: 10px;
     background-color: white;
-    border: 1px solid black;
-
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
 
 }
 
 .o-restaurant img{
     width: 15rem;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .o-description-container{

@@ -50,6 +50,8 @@ body{
     height: 1.5rem;
     box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
     font-weight: 700;
+    cursor:pointer;
+
 
 }
 
@@ -68,6 +70,7 @@ body{
     width: 2rem;
     height: 2rem;
     margin: 0;
+    cursor:pointer;
 }
 
 .o-icon-container button img{
@@ -93,6 +96,8 @@ body{
 
 .o-container-header-bar li a:hover{ 
     background-color: #FEB618;
+    color: white;
+
 }
 
 /*--------Fin Barra Header-------*/
@@ -101,7 +106,7 @@ body{
 
 .o-firts-column-container{
     margin: 1rem 1rem 0rem 2rem;
-    width: 57vw;
+    width: 55vw;
     display: flex;
     flex-direction: column;
 }
@@ -142,6 +147,7 @@ margin: 0;
     color: white;
     background-color: #FEB618;
     box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+    cursor: pointer;
 }
 
 .o-img-panoramic{
@@ -211,8 +217,9 @@ margin: 0;
 
 
 .o-second-column-container{
+
     margin: 1rem 0rem 0rem 0rem;
-    width: 50vw;
+    width: 45vw;
     height: auto;
     background-color: #FEB618;
     background-image: url(resources/Home.png);
@@ -221,27 +228,52 @@ margin: 0;
     background-position:-36rem -1rem;
 
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    flex-wrap: wrap;
     overflow: hidden;
-    overflow-x: auto;
+
+}
+
+.o-arrow-buttons-container{
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.o-button-left, .o-button-right{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 100px;
+    margin: 0rem 0.5rem 0.5rem 0rem;
+    background-color: #FEB618;
+    cursor:pointer;
+    
+}
+.o-button-left:hover, .o-button-right:hover{
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+    
 }
 
 
 .o-card-container{
-    
-    margin: 0rem 1rem 3rem 0rem;
-    display: flex;    
+    display: flex;
+
 }
 
 .o-card{
     background-color: white;
     border-radius: 10px;
-    margin: 0rem 1rem 0rem 1rem;
     width: 20rem;
     height: 15rem;
-    padding: 1rem;
-    
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem;
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+
 }
 
 .o-card-title {
@@ -265,8 +297,8 @@ margin: 0;
 }
 
 .o-icon-location{
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     align-self: center;
 
 }
@@ -279,7 +311,6 @@ margin: 0;
     float: right;
 }
 
-
 .o-card-content p{
     font-weight: 400;
     text-align: justify;
@@ -288,16 +319,27 @@ margin: 0;
 .o-card-price{
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
+
+
 }
 
 .o-card-price h3{
-    margin-top: 1rem;
+    margin: 0rem;
     font-size: 1.5rem;
 
 }
+
+.o-card-price a{
+    text-decoration: none;
+
+}
+
 .o-card-price p{
-    margin-top: 1rem;
+    margin: 0;
     font-size: 1.5rem;
     font-weight: 700;
     color: #FEB618;
+
 }
+ 
