@@ -6,13 +6,16 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>U-eat</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='Home.css'>
+    <!-- Javascript function to move restaurant cards -->
     <script src='main.js'></script>
 </head>
 
 <body>
 
+    <!-- Start of the header bar div -->
     <div class="o-container-header-bar">
 
         <ul>
@@ -34,7 +37,9 @@
         </ul>
 
     </div>
+    <!-- End of the header bar div -->
 
+    <!-- Start of the firts home div container -->
     <div class="o-firts-column-container">
 
         <div class="o-title-container">
@@ -61,7 +66,7 @@
 
         <div class="o-button-container">
 
-            <button>Encuentra tu restaurante</button>
+            <button onclick="location.href='restaurantes.html'">Encuentra tu restaurante</button>
 
         </div>
 
@@ -103,11 +108,14 @@
         </div>
 
     </div>
+    <!-- End of the firts home div container -->
 
+    <!-- Start of the second home div container -->
     <div class="o-second-column-container">
 
         <div class="o-arrow-buttons-container">
 
+            <!-- Buttons of event for the function of move cards restaurant -->
             <button class="o-button-left" onclick="MoveLeft()"><img src="resources/back.png" alt="Icono flecha izquierda"></button>
             <button class="o-button-right" onclick="MoveRight()"><img src="resources/next.png" alt="Icono flecha derecha"></button>
 
@@ -246,6 +254,8 @@
         </div>
 
     </div>
+    <!-- End of the second home div container -->
+
 
 </body>
 
