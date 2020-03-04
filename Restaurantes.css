@@ -1,3 +1,4 @@
+/*-----------Styles home preconfigured-----------*/
 body{
     padding: 0;
     margin: 0;
@@ -6,8 +7,7 @@ body{
    
 }
 
-/*----------Inicio Barra header------------*/
-
+/*----------Start of header bar styles------------*/
 .o-container-header-bar{
     font-weight: 600;
 
@@ -99,11 +99,9 @@ body{
     color: white;
 
 }
+/*--------End of header bar styles-------*/
 
-/*--------Fin Barra Header-------*/
-
-/*--------Inicio Primer Container-------*/
-
+/*--------Start of firts column styles--------*/
 .o-firts-container{
     margin: 5rem 1rem 1rem 4rem;
     width: 20vw;
@@ -150,12 +148,9 @@ body{
     border-bottom: 1px solid black;
     border-radius: 10px;
 }
+/*--------End of firts column styles--------*/
 
-
-/*--------Fin Primer Container-------*/
-
-/*--------Inicio Segundo Container-------*/
-
+/*--------Start of second column styles--------*/
 .o-second-container{
     margin: 5rem 4rem 1rem 0rem;
     width: 80vw;
@@ -211,3 +206,4 @@ body{
 .o-description-container p{
     margin: 0;
 }
+/*--------End of second column styles--------*/
