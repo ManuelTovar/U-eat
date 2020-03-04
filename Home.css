@@ -1,3 +1,4 @@
+/*-----------Styles home preconfigured-----------*/
 body{
     padding: 0;
     margin: 0;
@@ -6,8 +7,7 @@ body{
    
 }
 
-/*----------Inicio Barra header------------*/
-
+/*----------Start of header bar styles------------*/
 .o-container-header-bar{
     font-weight: 600;
 
@@ -99,11 +99,9 @@ body{
     color: white;
 
 }
+/*--------End of header bar styles-------*/
 
-/*--------Fin Barra Header-------*/
-
-/*--------Inicio Primera Columna--------*/
-
+/*--------Start of firts column styles--------*/
 .o-firts-column-container{
     margin: 1rem 1rem 0rem 2rem;
     width: 55vw;
@@ -202,7 +200,6 @@ margin: 0;
     margin: 0.5rem 0rem 0rem 0rem;
 }
 
-
 .o-img-offer{
     margin: 1rem 0rem 0rem 0rem;
     width: auto;
@@ -210,12 +207,9 @@ margin: 0;
     border-radius: 90px ;
     border: 1px solid #000000;
 }
+/*--------End of firts column styles--------*/
 
-/*--------Fin Primera Columna--------*/
-
-/*--------Inicio Segunda Columna--------*/
-
-
+/*--------Start of second column styles--------*/
 .o-second-column-container{
 
     margin: 1rem 0rem 0rem 0rem;
@@ -258,7 +252,6 @@ margin: 0;
     box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
     
 }
-
 
 .o-card-container{
     display: flex;
@@ -342,4 +335,5 @@ margin: 0;
     color: #FEB618;
 
 }
+/*--------End of second column styles--------*/
  
