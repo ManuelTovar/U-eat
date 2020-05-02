@@ -185,7 +185,11 @@ body{
     width: 26rem;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+
+}
+.o-restaurant:hover{
+    box-shadow: 0.3rem 0.3rem 0.6rem #4e4c4ccb;
+   
 
 }
 

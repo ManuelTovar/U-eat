@@ -9,13 +9,13 @@ and left*/
 function MoveRight() {
 
     var div = document.getElementById("card-container");
-    div.setAttribute('style', 'transform: translate(10rem);');
+    div.setAttribute('style', 'transform: translate(40rem); -webkit-transition: all .3s ease-in-out;');
 
 }
 
 function MoveLeft() {
 
     var div = document.getElementById("card-container");
-    div.setAttribute('style', 'transform: translate(-10rem);');
+    div.setAttribute('style', 'transform: translate(-1.5rem); -webkit-transition: all .3s ease-in-out;');
 
 }
