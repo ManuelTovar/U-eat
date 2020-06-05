@@ -8,6 +8,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='Home.css'>
     <!-- Javascript function to move restaurant cards -->
     <script src='main.js'></script>
@@ -18,23 +19,24 @@
     <!-- Start of the header bar div -->
     <div class="o-container-header-bar">
 
-        <ul>
-            <li><a href="index.html"> Logo U-eat </a></li>
-            <li><a href="#"> Oferta del día </a></li>
-            <li><a href="#"> Parche u-eat </a></li>
-            <li><a href="#"> Reserva tu mesa </a></li>
+        <div class="o-nav-bar-first">
+            <a class="o-active" href="index.html"> U-eat</a>
+            <a href="#">Oferta del día</a>
+            <a href="#">Parche U-eat</a>
+            <a href="#">Reserva tu mesa</a>
+        </div>
 
-            <li class="o-search">
-                <div class="o-bar-container">
-                    <input class="o-bar-search" type="text" id="search-box" placeholder="¿Qué quieres comer?">
-                </div>
-                <div class="o-icon-container">
-                    <button><img src="resources/search.png" alt="Icono buscar"></button>
-                </div>
-            </li>
-            <li><a href="https://juanramirez98.github.io/Parcial-de-web/"> Registrate </a></li>
-            <li><button onclick="location.href='https://juanramirez98.github.io/Pantalla2/';">Iniciar Sesión</button></li>
-        </ul>
+        <div class="o-nav-bar-second">
+
+            <div class="o-search"> 
+                <input type="text" id="search-box" placeholder="¿Qué quieres comer?">
+                <button><img src="resources/search.png" alt="Icono buscar"></button>
+            </div>
+
+            <a href="https://juanramirez98.github.io/Parcial-de-web/"><i class="fa fa-book"></i> Regístrate</a>
+            <a href="https://juanramirez98.github.io/Pantalla2/"><i class="fa fa-fw fa-user"></i> Iniciar Sesión</a>
+        </div>
+
 
     </div>
     <!-- End of the header bar div -->
@@ -82,25 +84,25 @@
                 <div class="o-img-container">
                     <img class="o-img-offer" src="resources/Salmongrillado.png" alt="Imagen Salmon Grillado">
                     <h4>Salmon Grillado</h4>
-                    <p>10K</p>
+                    <p>10.000 COP</p>
                 </div>
 
                 <div class="o-img-container">
                     <img class="o-img-offer" src="resources/Sushisake.png" alt="Imagen Sushi Sake">
                     <h4>Sushi sake</h4>
-                    <p>11K</p>
+                    <p>11.000 COP</p>
                 </div>
 
                 <div class="o-img-container">
                     <img class="o-img-offer" src="resources/Bombonesdearroz.png" alt="Imagen Bombones de arroz">
                     <h4>Bombones de arroz</h4>
-                    <p>12K</p>
+                    <p>12.000 COP</p>
                 </div>
 
                 <div class="o-img-container">
                     <img class="o-img-offer" src="resources/Filetmignon.png" alt="Imagen Filet Mignon">
                     <h4>Filet mignon</h4>
-                    <p>13K</p>
+                    <p>13.000 COP</p>
                 </div>
 
             </div>
@@ -116,8 +118,10 @@
         <div class="o-arrow-buttons-container">
 
             <!-- Buttons of event for the function of move cards restaurant -->
-            <button class="o-button-left" onclick="MoveLeft()"><img src="resources/back.png" alt="Icono flecha izquierda"></button>
-            <button class="o-button-right" onclick="MoveRight()"><img src="resources/next.png" alt="Icono flecha derecha"></button>
+            <button class="o-button-left" onclick="MoveLeft()"><img src="resources/back.png"
+                    alt="Icono flecha izquierda"></button>
+            <button class="o-button-right" onclick="MoveRight()"><img src="resources/next.png"
+                    alt="Icono flecha derecha"></button>
 
         </div>
 
@@ -143,14 +147,16 @@
                 </div>
 
                 <div class="o-card-content">
-                    <h2>Restaurante Almuerzo Vegano</h2>
+                    <h2>Almuerzo Vegano</h2>
                     <p>Un delicioso almuerzo vegano el cual contiene zetas pomodoro con un chiffonade de albahaca,
                         brócoli, aguacate y pimentón</p>
                 </div>
 
                 <div class="o-card-price">
-                    <h3>$10.000</h3>
-                    <a href="#"><p>Pedir</p></a>
+                    <h3>10.000 COP</h3>
+                    <a href="#">
+                        <p>Pedir</p>
+                    </a>
                 </div>
 
             </div>
@@ -181,8 +187,10 @@
                 </div>
 
                 <div class="o-card-price">
-                    <h3>$10.000</h3>
-                    <a href="#"><p>Pedir</p></a>
+                    <h3>10.000 COP</h3>
+                    <a href="#">
+                        <p>Pedir</p>
+                    </a>
                 </div>
 
             </div>
@@ -213,8 +221,10 @@
                 </div>
 
                 <div class="o-card-price">
-                    <h3>$10.000</h3>
-                    <a href="#"><p>Pedir</p></a>
+                    <h3>10.000 COP</h3>
+                    <a href="#">
+                        <p>Pedir</p>
+                    </a>
                 </div>
 
             </div>
@@ -245,8 +255,10 @@
                 </div>
 
                 <div class="o-card-price">
-                    <h3>$10.000</h3>
-                    <a href="#"><p>Pedir</p></a>
+                    <h3>10.000 COP</h3>
+                    <a href="#">
+                        <p>Pedir</p>
+                    </a>
                 </div>
 
             </div>

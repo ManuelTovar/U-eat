@@ -1,104 +1,99 @@
 /*-----------Styles home preconfigured-----------*/
 body{
     padding: 0;
-    margin: 0;
+    margin: 1rem 0rem 0rem 0rem;
     display: flex;
     font-family: 'Roboto';
+
    
 }
 
 /*----------Start of header bar styles------------*/
 .o-container-header-bar{
-    font-weight: 600;
-
-}
-
-.o-container-header-bar ul{
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    list-style-type: none;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
-
     position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
-}
-
-.o-container-header-bar li{ 
+    background-color: white;
 
 }
 
-.o-container-header-bar li a{ 
-    display: block;
-    color: black;
-    text-align: center;
-    height: 1.5rem;
-    padding: 1rem;
+.o-nav-bar-first{
+    display: flex;
+}
+
+.o-nav-bar-second{
+    display: flex;
+}
+
+.o-nav-bar-first a, .o-nav-bar-second a{
     text-decoration: none;
+    padding: 1rem 3rem 1rem 3rem;
+    color: black;
+    font-weight: bold;
 }
 
-.o-container-header-bar button{ 
-    margin: 1rem;
-    border-radius: 5px;
-    background: #FEB618;
+
+.o-nav-bar-first a:hover, .o-nav-bar-second a:hover{
+    background-color: #FEB618;
     color: white;
-    border: none;
-    width: 8rem;
-    height: 1.5rem;
-    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
-    font-weight: 700;
-    cursor:pointer;
-
-
 }
+
+.o-active{
+    background-color: #FEB618;
+    background-image: url(resources/restaurant.png);
+    background-repeat: no-repeat;
+    background-position: 10% 50%; 
+}
+
 
 .o-search{
     display: flex;
     align-items: center;
-    
+    margin-right: 0.5rem;
+  
 }
 
-.o-icon-search{
-    display: flex;
-    align-items: center;
-}
-
-.o-icon-container button{
+.o-search button{
+    background-color: #FEB618;
     width: 2rem;
     height: 2rem;
-    margin: 0;
     cursor:pointer;
+    border-radius: 10px;
+    border: none;
+    margin: 0rem 0rem 0rem 0.5rem;
+
 }
 
-.o-icon-container button img{
+.o-search input{
+    border-radius: 10px;
+    border: none;
+    height: 2rem;
+    width: auto; 
+    background-color: white;
+    border: 2px solid #FEB618;
+    border-radius: 10px;
+    
+}
+.o-search input::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.o-search img{
     width: 1rem;
     height: 1rem;
 }
 
-.o-bar-container{
-    padding: 0.5rem;
-    background-color: #FEB618;
-    margin-right: 0.5rem;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
 
-}                                               
-
-.o-bar-search{
-    border: none;
-    text-align: center;
-}
-
-
-.o-container-header-bar li a:hover{ 
-    background-color: #FEB618;
-    color: white;
-
-}
 /*--------End of header bar styles-------*/
 
 /*--------Start of firts column styles--------*/
@@ -172,6 +167,9 @@ margin: 0;
     justify-content: space-between;
 
 }
+.o-subtitles h3{
+    cursor: pointer;
+}
 
 .o-subtitles h4{
     margin: 0;
@@ -204,8 +202,7 @@ margin: 0;
     margin: 1rem 0rem 0rem 0rem;
     width: auto;
     height: 150px;
-    border-radius: 90px ;
-    border: 1px solid #000000;
+    border-radius: 70px ;
 }
 /*--------End of firts column styles--------*/
 
@@ -214,19 +211,17 @@ margin: 0;
 
     margin: 1rem 0rem 0rem 0rem;
     width: 45vw;
-    height: auto;
     background-color: #FEB618;
     background-image: url(resources/Home.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:-36rem -1rem;
-
     display: flex;
     flex-direction: row-reverse;
     align-content: flex-end;
     flex-wrap: wrap;
     overflow: hidden;
-
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
 }
 
 .o-arrow-buttons-container{
@@ -255,7 +250,7 @@ margin: 0;
 
 .o-card-container{
     display: flex;
-
+    transform: translate(40rem);
 }
 
 .o-card{
@@ -266,11 +261,19 @@ margin: 0;
     margin: 1rem 1rem 1rem 1rem;
     padding: 0.5rem;
     box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+    transition:  .3s;
 
+
+}
+
+.o-card:hover{
+    transform: scale(1.04);
+    transition:  .3s;
 }
 
 .o-card-title {
     display: flex;
+    margin-top: 0.5rem;
 
 }
 
@@ -307,6 +310,12 @@ margin: 0;
 .o-card-content p{
     font-weight: 400;
     text-align: justify;
+    margin: 0rem 2rem 1rem 2rem;
+
+}
+
+.o-card-content h2{
+    margin-left: 1rem;
 }
 
 .o-card-price{
@@ -318,7 +327,7 @@ margin: 0;
 }
 
 .o-card-price h3{
-    margin: 0rem;
+    margin: 0rem 0rem 0rem 1rem;
     font-size: 1.5rem;
 
 }
@@ -329,7 +338,7 @@ margin: 0;
 }
 
 .o-card-price p{
-    margin: 0;
+    margin: 0rem 1rem 0rem 0rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: #FEB618;

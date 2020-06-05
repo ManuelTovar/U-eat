@@ -9,106 +9,101 @@ body{
 
 /*----------Start of header bar styles------------*/
 .o-container-header-bar{
-    font-weight: 600;
-
-}
-
-.o-container-header-bar ul{
+    z-index: 10;
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    list-style-type: none;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
-
     position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
-}
-
-.o-container-header-bar li{ 
+    background-color: white;
 
 }
 
-.o-container-header-bar li a{ 
-    display: block;
-    color: black;
-    text-align: center;
-    height: 1.5rem;
-    padding: 1rem;
+
+.o-nav-bar-first{
+    display: flex;
+}
+
+.o-nav-bar-second{
+    display: flex;
+}
+
+.o-nav-bar-first a, .o-nav-bar-second a{
     text-decoration: none;
+    padding: 1rem 3rem 1rem 3rem;
+    color: black;
+    font-weight: bold;
 }
 
-.o-container-header-bar button{ 
-    margin: 1rem;
-    border-radius: 5px;
-    background: #FEB618;
+
+.o-nav-bar-first a:hover, .o-nav-bar-second a:hover{
+    background-color: #FEB618;
     color: white;
-    border: none;
-    width: 8rem;
-    height: 1.5rem;
-    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
-    font-weight: 700;
-    cursor:pointer;
-
-
 }
+
+.o-active{
+    background-color: #FEB618;
+    background-image: url(resources/restaurant.png);
+    background-repeat: no-repeat;
+    background-position: 10% 50%; 
+}
+
 
 .o-search{
     display: flex;
     align-items: center;
-    
+    margin-right: 0.5rem;
+  
 }
 
-.o-icon-search{
-    display: flex;
-    align-items: center;
-}
-
-.o-icon-container button{
+.o-search button{
+    background-color: #FEB618;
     width: 2rem;
     height: 2rem;
-    margin: 0;
     cursor:pointer;
+    border-radius: 10px;
+    border: none;
+    margin: 0rem 0rem 0rem 0.5rem;
+
 }
 
-.o-icon-container button img{
+.o-search input{
+    border-radius: 10px;
+    border: none;
+    height: 2rem;
+    width: auto; 
+    background-color: white;
+    border: 2px solid #FEB618;
+    border-radius: 10px;
+    
+}
+.o-search input::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.o-search img{
     width: 1rem;
     height: 1rem;
 }
 
-.o-bar-container{
-    padding: 0.5rem;
-    background-color: #FEB618;
-    margin-right: 0.5rem;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
 
-}                                               
-
-.o-bar-search{
-    border: none;
-    text-align: center;
-}
-
-
-.o-container-header-bar li a:hover{ 
-    background-color: #FEB618;
-    color: white;
-
-}
 /*--------End of header bar styles-------*/
 
 /*--------Start of firts column styles--------*/
 .o-firts-container{
-    margin: 5rem 1rem 1rem 4rem;
+    margin: 4rem 0rem 0rem 0rem;
     width: 20vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #FEB618;
-    border-radius: 10px;
     word-wrap: break-word;
     
 }
@@ -119,10 +114,9 @@ body{
 }
 
 .o-title-categories h2{
-    margin: 0rem;
-    font-size: 2rem;
-    font-weight: 600;
+    padding: 1rem 0rem 0.5rem 1.5rem;
     border-bottom: 2px solid black;
+    margin: 0;
 
 }
 
@@ -132,42 +126,172 @@ body{
 
 .o-list-categories h3{
     margin: 1rem;
+    font-weight: 400;
 }
 
 .o-list-categories a{
     display: block;
     color: black;
     text-decoration: none;
-    padding: 0.5rem;
-    margin-bottom: 0.3rem;
+    padding: 0.5rem; 
+    border-radius: 10px;
+
 }
 
 .o-list-categories a:hover{
-    background-color: white;
-    box-shadow: 5px 10px 8px rgba(109, 109, 109, 0.507);
-    border-bottom: 1px solid black;
-    border-radius: 10px;
+    background-color: rgba(212, 211, 211, 0.507);
 }
+
+.o-all{
+    background-position: 110% 50%; 
+    background-color: rgba(212, 211, 211, 0.507);
+    transition:  .4s;
+    background-image: url(resources/all.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+
+}
+.o-all:hover{
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/all.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+} 
+
+.o-hamburger {
+    background-position: 110% 50%; 
+    transition:  .4s;
+}
+
+.o-hamburger:hover {
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/hamburger.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+}
+
+.o-hotdog {
+    background-position: 110% 50%; 
+    transition:  .4s;
+}
+
+.o-hotdog:hover{
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/hotdog.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+}
+
+.o-pasta {
+    background-position: 110% 50%; 
+    transition:  .4s;
+}
+
+.o-pasta:hover {
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/pasta.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+}
+
+.o-bowl{
+    background-position: 110% 50%; 
+    transition:  .4s;
+
+}
+
+.o-bowl:hover {
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/bowl.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+}
+
+.o-meat{
+    background-position: 110% 50%; 
+    transition:  .4s;
+}
+
+.o-meat:hover{
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/meat.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+}
+
+
+.o-breakfast{
+    background-position: 110% 50%; 
+    transition:  .4s;
+}
+
+ .o-breakfast:hover{
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/breakfast.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+ } 
+
+ 
+.o-buffet{
+    background-position: 110% 50%; 
+    transition:  .4s;
+}
+
+ .o-buffet:hover {
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/buffet.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+ }
+
+ .o-sea{
+    background-position: 110% 50%; 
+    transition:  .4s;
+ }
+
+ .o-sea:hover{
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/sea.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+ }
+ 
+.o-healthy{
+    background-position: 110% 50%; 
+    transition:  .4s;
+}
+
+ .o-healthy:hover{
+    -webkit-transition: all .3s ease-in-out;    
+    background-image: url(resources/healthy.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%; 
+ }
 /*--------End of firts column styles--------*/
 
 /*--------Start of second column styles--------*/
 .o-second-container{
-    margin: 5rem 4rem 1rem 0rem;
+    padding-top: 4rem;
     width: 80vw;
     display: flex;
     flex-direction: column;
     background-color: #FEB618;
-    border-radius: 10px;
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507); 
+    background-image: url(resources/Home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
 
 }
 
 .o-title-restaurants{
     margin: 2rem 1rem 0rem 1rem;
-    border-bottom: 2px solid black;
 }
 
 .o-title-restaurants h2{
-    margin: 0rem;
+    margin: 0rem 0rem 0rem 1rem;
     font-weight: 400;
 }
 
@@ -185,13 +309,16 @@ body{
     width: 26rem;
     border-radius: 10px;
     background-color: white;
+    box-shadow: 0.3rem 0.5rem 1rem #9b9b9b65;
+    transition:  .3s;
 
 }
 .o-restaurant:hover{
-    box-shadow: 0.3rem 0.3rem 0.6rem #4e4c4ccb;
-   
-
+    transform: scale(1.04);
+    transition:  .3s;
+    cursor: pointer;
 }
+
 
 .o-restaurant img{
     width: 15rem;

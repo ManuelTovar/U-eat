@@ -8,6 +8,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='Restaurantes.css'>
     <script src='main.js'></script>
 </head>
@@ -15,29 +16,34 @@
 <body>
 
     <!-- Start of the header bar div -->
+
     <div class="o-container-header-bar">
 
-        <ul>
-            <li><a href="index.html"> Logo U-eat </a></li>
-            <li><a href="#"> Oferta del dia </a></li>
-            <li><a href="#"> Parche u-eat </a></li>
-            <li><a href="#"> Reserva tu mesa </a></li>
+        <div class="o-nav-bar-first">
+            <a class="o-active" href="index.html"> U-eat</a>
+            <a href="#">Oferta del día</a>
+            <a href="#">Parche U-eat</a>
+            <a href="#">Reserva tu mesa</a>
+        </div>
 
-            <li class="o-search">
-                <div class="o-bar-container">
-                    <input class="o-bar-search" type="text" id="search-box" placeholder="¿Qué quieres comer?">
-                </div>
-                <div class="o-icon-container">
-                    <button><img src="resources/search.png" alt="Icono buscar"></button>
-                </div>
-            </li>
-            <li><a href="#"> Registrate </a></li>
-            <li><button>Iniciar Sesión</button></li>
-        </ul>
+        <div class="o-nav-bar-second">
+
+            <div class="o-search"> 
+                <input type="text" id="search-box" placeholder="¿Qué quieres comer?">
+                <button><img src="resources/search.png" alt="Icono buscar"></button>
+            </div>
+
+            <a href="https://juanramirez98.github.io/Parcial-de-web/"><i class="fa fa-book"></i> Regístrate</a>
+            <a href="https://juanramirez98.github.io/Pantalla2/"><i class="fa fa-fw fa-user"></i> Iniciar Sesión</a>
+        </div>
+
+
     </div>
+
     <!-- End of the header bar div -->
 
     <!-- Start of the firts restaurant categories div container -->
+    
     <div class="o-firts-container">
 
         <div class="o-title-categories">
@@ -48,34 +54,34 @@
 
         <div class="o-list-categories">
 
-            <a href="#">
+            <a class="o-all" href="#">
                 <h3>Todos</h3>
             </a>
-            <a href="#">
+            <a  class="o-hamburger" href="#">
                 <h3>Hamburguesas</h3>
             </a>
-            <a href="#">
+            <a  class="o-hotdog" href="#">
                 <h3>Perros</h3>
             </a>
-            <a href="#">
+            <a  class="o-pasta" href="#">
                 <h3>Pasta</h3>
             </a>
-            <a href="#">
+            <a  class="o-bowl" href="#">
                 <h3>Bowls</h3>
             </a>
-            <a href="#">
+            <a  class="o-meat" href="#">
                 <h3>Filetes</h3>
             </a>
-            <a href="#">
+            <a  class="o-breakfast" href="#">
                 <h3>Desayuno</h3>
             </a>
-            <a href="#">
+            <a  class="o-buffet" href="#">
                 <h3>Ejecutivo</h3>
             </a>
-            <a href="#">
+            <a  class="o-sea" href="#">
                 <h3>De mar</h3>
             </a>
-            <a href="#">
+            <a class="o-healthy" href="#">
                 <h3>Saludable</h3>
             </a>
 
@@ -89,7 +95,7 @@
 
         <div class="o-title-restaurants">
 
-            <h2>Restaurantes en tu zona</h2>
+            <h2>Restaurantes en tu zona según la categoría</h2>
 
         </div>
 
