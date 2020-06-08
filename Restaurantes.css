@@ -9,7 +9,7 @@ body{
 
 /*----------Start of header bar styles------------*/
 .o-container-header-bar{
-    z-index: 10;
+    z-index: 9;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -144,11 +144,7 @@ body{
 
 .o-all{
     background-position: 110% 50%; 
-    background-color: rgba(212, 211, 211, 0.507);
     transition:  .4s;
-    background-image: url(resources/all.png);
-    background-repeat: no-repeat;
-    background-position: 90% 50%; 
 
 }
 .o-all:hover{
@@ -207,19 +203,6 @@ body{
     background-position: 90% 50%; 
 }
 
-.o-meat{
-    background-position: 110% 50%; 
-    transition:  .4s;
-}
-
-.o-meat:hover{
-    -webkit-transition: all .3s ease-in-out;    
-    background-image: url(resources/meat.png);
-    background-repeat: no-repeat;
-    background-position: 90% 50%; 
-}
-
-
 .o-breakfast{
     background-position: 110% 50%; 
     transition:  .4s;
@@ -231,19 +214,6 @@ body{
     background-repeat: no-repeat;
     background-position: 90% 50%; 
  } 
-
- 
-.o-buffet{
-    background-position: 110% 50%; 
-    transition:  .4s;
-}
-
- .o-buffet:hover {
-    -webkit-transition: all .3s ease-in-out;    
-    background-image: url(resources/buffet.png);
-    background-repeat: no-repeat;
-    background-position: 90% 50%; 
- }
 
  .o-sea{
     background-position: 110% 50%; 
@@ -257,17 +227,6 @@ body{
     background-position: 90% 50%; 
  }
  
-.o-healthy{
-    background-position: 110% 50%; 
-    transition:  .4s;
-}
-
- .o-healthy:hover{
-    -webkit-transition: all .3s ease-in-out;    
-    background-image: url(resources/healthy.png);
-    background-repeat: no-repeat;
-    background-position: 90% 50%; 
- }
 /*--------End of firts column styles--------*/
 
 /*--------Start of second column styles--------*/
@@ -282,7 +241,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-
 
 }
 
@@ -319,7 +277,6 @@ body{
     cursor: pointer;
 }
 
-
 .o-restaurant img{
     width: 15rem;
     height: auto;
@@ -330,11 +287,121 @@ body{
     padding: 1rem;
 
 }
-.o-description-container h3{
-
-}
-
-.o-description-container p{
-    margin: 0;
-}
 /*--------End of second column styles--------*/
+
+/*--------Modal---------*/
+
+.o-modal-window{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.o-modal-window h2{
+    margin: 0.5rem 0rem 0.5rem 2rem;
+    font-weight: 700;
+    font-size: 3rem;
+    -webkit-text-fill-color: #FEB618;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.o-modal-products{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 90%;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.o-modal-products h4{
+    color: black;
+    margin: 0;
+    align-self: flex-start;
+    border-bottom:1px solid black ;
+}
+
+.o-bt-exit{
+    font-size: 1.5rem;
+    font-weight: 900;
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    top: -1rem;
+    right: -1rem;
+    outline: none;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    color: #5d5d5d;
+    text-align: center;
+}
+
+.o-container-products{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.o-product{
+    background-color: rgba(212, 211, 211, 0.507);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    max-width: 29.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.o-product:hover{
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+}
+
+.o-product-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.o-product-info p{
+    margin: 0.4rem;
+    font-weight: 300;
+}
+
+.o-product-mult{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.o-product-mult img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+
+}
+
+.o-product-mult button{
+    margin: 0rem 1rem 0rem 1rem;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    height: 3rem;
+}
+
+.o-product-mult button:hover{
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+}
+
+

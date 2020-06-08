@@ -1,0 +1,525 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "nombre": "D-cafe",
+            "tipo": "Gourmet",
+            "precio": "Desde $8.000", 
+            "tiempo": "8 minutos",
+            "urlImagen": "resources/dcafe.jpg",
+            "categorias": [
+                {
+                    "categoria": "Pasta",
+                    "productos": [
+                        {
+                            "nombreProducto": "Espagueti Carbonara",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://www.hogarmania.com/archivos/201801/ecibru-007-espaguetis-a-la-carbonara-1280x720x80xX.jpg",
+                            "calificacionProducto": "4.5"
+                        },
+                         {
+                            "nombreProducto": "Espagueti Boloñesa",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://cocina-casera.com/wp-content/uploads/2012/12/espaguetis-bolonesa.jpg",
+                            "calificacionProducto": "4.0"
+
+                        },
+                         {
+                            "nombreProducto": "Espagueti con leche",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://www.recetin.com/wp-content/uploads/2011/03/pasta-con-leche-y-queso.jpg",
+                            "calificacionProducto": "4.1"
+                        }
+                    ]
+                },
+                {
+                    "categoria": "Bowl",
+                    "productos": [
+                        {
+                            "nombreProducto": "Bowl Mexicano",
+                            "precioProducto": "$11.000",
+                            "imagenProducto": "https://i.pinimg.com/originals/9d/a6/f9/9da6f9e2de079672a572f9604b7eb43b.jpg",
+                            "calificacionProducto": "3.8"
+                            
+                        },
+                         {
+                            "nombreProducto": "Bowl de albondigas",
+                            "precioProducto": "$13.000",
+                            "imagenProducto": "https://content-recetas.lecturas.com/medio/2019/07/17/paso_a_paso_para_realizar_albondigas_rellenas_de_queso_resultado_final_b4633d2d_600x600.jpg",
+                            "calificacionProducto": "4.2"
+                        },
+                         {
+                            "nombreProducto": "Bowl de pollo",
+                            "precioProducto": "$10.000",
+                            "imagenProducto": "https://i.pinimg.com/originals/fb/27/3f/fb273f7baa3892d8b2645baa290aa7c3.png",
+                            "calificacionProducto": "4.8"
+                        } 
+                    ]
+                },
+                {
+                    "categoria": "Desayuno",
+                    "productos": [
+                        {
+                            "nombreProducto": "Cafe y bunuelo",
+                            "precioProducto": "$5.000",
+                            "imagenProducto": "https://kathjudge.files.wordpress.com/2014/05/20140519-113523.jpg",
+                            "calificacionProducto": "4.4"
+                        },
+                         {
+                            "nombreProducto": "Croissants",
+                            "precioProducto": "$13.000",
+                            "imagenProducto": "https://i.ytimg.com/vi/iFjSv5oRKUo/maxresdefault.jpg",
+                            "calificacionProducto": "4.3"
+                            
+                        },
+                         {
+                            "nombreProducto": "Te hindu",
+                            "precioProducto": "$3.000",
+                            "imagenProducto": "https://tehindu.com/wp-content/uploads/2017/04/mix-aromaticas.jpg",
+                            "calificacionProducto": "4.6"
+                        } 
+                    ]  
+                },
+                {
+                    "categoria": "Saludable",
+                    "productos": [
+                        {
+                            "nombreProducto": "Ensalada suiza",
+                            "precioProducto": "$9.000",
+                            "imagenProducto": "https://easyrecetas.com/wp-content/uploads/2019/09/Receta-de-Ensalada-Suiza.jpg",
+                            "calificacionProducto": "3.5"
+                            
+                        },
+                         {
+                            "nombreProducto": "Ensalada mixta",
+                            "precioProducto": "$11.000",
+                            "imagenProducto": "https://www.webconsultas.com/sites/default/files/ensalada_mixta.jpg",
+                            "calificacionProducto": "3.2"
+                        },
+                         {
+                            "nombreProducto": "Ensalada griega",
+                            "precioProducto": "$13.000",
+                            "imagenProducto": "https://www.webconsultas.com/sites/default/files/ensalada_griega.jpg",
+                            "calificacionProducto": "3.0"
+                        } 
+                    ]  
+
+                }
+            ]
+
+        },
+        {
+            "id": 1,
+            "nombre": "Fruits & Gourmet",
+            "tipo": "Gourmet",
+            "precio": "Desde $ 7.000", 
+            "tiempo": "9 minutos",
+            "urlImagen": "resources/Fruit and gourmet.jpg",
+            "categorias": [
+                {
+                    "categoria": "Pasta",
+                    "productos": [
+                        {
+                            "nombreProducto": "Espagueti de pollo",
+                            "precioProducto": "$10.000",
+                            "imagenProducto": "https://cdn.colombia.com/sdi/2013/06/06/espaguetis-con-pollo-507686.jpg",
+                            "calificacionProducto": "3.9"
+                        },
+                         {
+                            "nombreProducto": "Espagueti de camarones",
+                            "precioProducto": "$16.000",
+                            "imagenProducto": "https://d1uz88p17r663j.cloudfront.net/resized/E6686F76-811C-6377-B9D8-FF0000673B69-610x360-b-min_1200_600.png",
+                            "calificacionProducto": "4.9"
+                        },
+                         {
+                            "nombreProducto": "Espagueti de atun",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2016/06/pastaconatun.jpg",
+                            "calificacionProducto": "3.7"
+                        }
+                    ]
+                },
+                {
+                    "categoria": "Hamburguesa",
+                    "productos": [
+                        {
+                            "nombreProducto": "Hamburguesa de carne",
+                            "precioProducto": "$8.500",
+                            "imagenProducto": "https://d1uz88p17r663j.cloudfront.net/original/8689e8d974203563ddcc9bbff91323c2_MG_CHORIZOBURGER_Main-880x660.png",
+                            "calificacionProducto": "5.0"
+                        },
+                         {
+                            "nombreProducto": "Hamburguesa sencilla",
+                            "precioProducto": "$7.000",
+                            "imagenProducto": "https://www.hogar.mapfre.es/media/2018/09/hamburguesa-sencilla.jpg",
+                            "calificacionProducto": "4.9"
+                        },
+                         {
+                            "nombreProducto": "Hambuerguesa pollo",
+                            "precioProducto": "$8.000",
+                            "imagenProducto": "https://dam.cocinafacil.com.mx/wp-content/uploads/2019/05/hamburguesa-pollo-frito.png",
+                            "calificacionProducto": "4.3"
+                        } 
+                    ]
+                },
+                {
+                    "categoria": "Desayuno",
+                    "productos": [
+                        {
+                            "nombreProducto": "Huevos rancheros",
+                            "precioProducto": "$9.000",
+                            "imagenProducto": "https://i.pinimg.com/originals/ef/96/b7/ef96b7ca0f841d9ef0a0ac41a3a19374.jpg",
+                            "calificacionProducto": "4.0"
+                        },
+                         {
+                            "nombreProducto": "Huevos pericos",
+                            "precioProducto": "$10.000",
+                            "imagenProducto": "https://images-gmi-pmc.edge-generalmills.com/2530e639-06c0-4be2-b7ba-1efbccb78fcd.jpg",
+                            "calificacionProducto": "5.0"
+                        },
+                         {
+                            "nombreProducto": "Desayuno granola kumis",
+                            "precioProducto": "$15.000",
+                            "imagenProducto": "https://as.com/deporteyvida/imagenes/2018/04/12/portada/1523520094_678766_1523520442_noticia_normal.jpg",
+                            "calificacionProducto": "2.9"
+                        } 
+                    ]  
+                },
+                {
+                    "categoria": "Perros calientes",
+                    "productos": [
+                        {
+                            "nombreProducto": "Perro caliente con tocino",
+                            "precioProducto": "$9.000",
+                            "imagenProducto": "https://dam.cocinafacil.com.mx/wp-content/uploads/2019/04/hot-dog-aderezo-tocino.png",
+                            "calificacionProducto": "4.5"
+                        },
+                         {
+                            "nombreProducto": "Perro caliente sencillo",
+                            "precioProducto": "$8.500",
+                            "imagenProducto": "https://dam.cocinafacil.com.mx/wp-content/uploads/2019/04/hot-dog-hawaiano.png",
+                            "calificacionProducto": "4.3"
+                        },
+                         {
+                            "nombreProducto": "Perro caliente huevo",
+                            "precioProducto": "$13.000",
+                            "imagenProducto": "https://admin.dondomi.co//files/products/7373/87779528666a5444a7105fcafb191382e80acf81.png",
+                            "calificacionProducto": "3.0"
+                        } 
+                    ]  
+
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Cafe Sabor",
+            "tipo": "Cafeteria",
+            "precio": "Desde $ 9.000", 
+            "tiempo": "7 minutos",
+            "urlImagen": "resources/CAFFESABOR.jpg",
+            "categorias": [
+                {
+                    "categoria": "Pasta",
+                    "productos": [
+                        {
+                            "nombreProducto": "Fettuccine alfredo",
+                            "precioProducto": "$9.000",
+                            "imagenProducto": "https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1.jpg",
+                            "calificacionProducto": "4.5"
+                        },
+                         {
+                            "nombreProducto": "Pasta de camarones y brocoli",
+                            "precioProducto": "$10.000",
+                            "imagenProducto": "https://assets.kraftfoods.com/recipe_images/opendeploy/143284_290x194.jpg",
+                            "calificacionProducto": "4.0"
+                        },
+                         {
+                            "nombreProducto": "Lasagna mixta",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://d1nsq2txwd94q7.cloudfront.net/public/files/production/recipes/images/3940/fancy/r_3940_1550830380.jpg",
+                            "calificacionProducto": "4.0"
+                        }
+                    ]
+                },
+                {
+                    "categoria": "Hamburguesa",
+                    "productos": [
+                        {
+                            "nombreProducto": "Hamburguesa tapa arterias",
+                            "precioProducto": "$8.500",
+                            "imagenProducto": "https://i.ytimg.com/vi/3agvQUvoBBs/maxresdefault.jpg",
+                            "calificacionProducto": "5.0"
+                        },
+                         {
+                            "nombreProducto": "Hamburguesa veegtariana",
+                            "precioProducto": "$7.000",
+                            "imagenProducto": "https://dam.cocinafacil.com.mx/wp-content/uploads/2019/05/hamburguesa-vegetariana-receta.png",
+                            "calificacionProducto": "2.0"
+                        },
+                         {
+                            "nombreProducto": "Hambuerguesa cubana",
+                            "precioProducto": "$8.000",
+                            "imagenProducto": "https://cdn.aarp.net/content/dam/aarp/food/recipes/2016/06/1140-cuban-style-pork-burger-esp.imgcache.rev9827c5f2bc5fa777def22db95c91af91.jpg",
+                            "calificacionProducto": "3.9"
+                        } 
+                    ]
+                },
+                {
+                    "categoria": "Desayuno",
+                    "productos": [
+                        {
+                            "nombreProducto": "Huevos estrellados",
+                            "precioProducto": "$6.000",
+                            "imagenProducto": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2017/10/huevoestrelladoperfecto.jpg",
+                            "calificacionProducto": "4.6"
+                        },
+                         {
+                            "nombreProducto": "Huevos revueltos",
+                            "precioProducto": "$10.000",
+                            "imagenProducto": "https://www.pequerecetas.com/wp-content/uploads/2009/11/huevos-revueltos.jpg",
+                            "calificacionProducto": "4.0"
+                        },
+                         {
+                            "nombreProducto": "Jugo de naranja",
+                            "precioProducto": "$2.000",
+                            "imagenProducto": "https://saboreando.tips/wp-content/uploads/jugo-de-naranja.jpg",
+                            "calificacionProducto": "4.2"
+                        } 
+                    ]  
+                },
+                {
+                    "categoria": "Perros calientes",
+                    "productos": [
+                        {
+                            "nombreProducto": "Perro caliente con frijoles",
+                            "precioProducto": "$9.000",
+                            "imagenProducto": "https://revistadiners.com.co/wp-content/uploads/2018/12/perrocaliente1800x669.jpg",
+                            "calificacionProducto": "4.2"
+                        },
+                         {
+                            "nombreProducto": "Perro caliente vegetariano",
+                            "precioProducto": "$8.500",
+                            "imagenProducto": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQHheog9uZiENS-taLsEi1E7gvuM376aGp1yaxkazAdEP7qVlpT&usqp=CAU",
+                            "calificacionProducto": "3.6"
+                        },
+                         {
+                            "nombreProducto": "Perro caliente cubano",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://images-gmi-pmc.edge-generalmills.com/f5a517df-12c8-4d55-aa70-c882d99122e0.jpg",
+                            "calificacionProducto": "3.3"
+                        } 
+                    ]  
+
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Petetes",
+            "tipo": "Buffet",
+            "precio": "Desde $ 2.000", 
+            "tiempo": "5 minutos",
+            "urlImagen": "resources/petetes.jpg",
+            "categorias": [
+                {
+                    "categoria": "Mar",
+                    "productos": [
+                        {
+                            "nombreProducto": "Tilapia frita",
+                            "precioProducto": "$9.000",
+                            "imagenProducto": "https://omega3web.files.wordpress.com/2016/07/3d827-mojarra-frita.jpg?w=346",
+                            "calificacionProducto": "3.8"
+                        },
+                         {
+                            "nombreProducto": "Cazuela de mariscos",
+                            "precioProducto": "$10.000",
+                            "imagenProducto": "https://i.pinimg.com/originals/43/99/e6/4399e6678813db573bdc7f037bef7ef6.jpg",
+                            "calificacionProducto": "4.7"
+                        },
+                         {
+                            "nombreProducto": "Sopa de bagre",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://d1ralsognjng37.cloudfront.net/6b504e9e-2de7-4dc9-8537-4b697815d9fd.jpeg",
+                            "calificacionProducto": "3.1"
+                        }
+                    ]
+                },
+                {
+                    "categoria": "Hamburguesa",
+                    "productos": [
+                        {
+                            "nombreProducto": "Hamburguesa las vegas",
+                            "precioProducto": "$8.500",
+                            "imagenProducto": "https://i2.wp.com/tuliorecomienda.com/wp-content/uploads/2018/03/14656310_682981898521189_7926659884198335927_n.jpg?resize=300%2C300&ssl=1",
+                            "calificacionProducto": "4.6"
+                        },
+                         {
+                            "nombreProducto": "Hamburguesa con huevo",
+                            "precioProducto": "$7.000",
+                            "imagenProducto": "https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2010/08/hamburguesa-huevo.jpg",
+                            "calificacionProducto": "3.9"
+                        },
+                         {
+                            "nombreProducto": "Hambuerguesa prensada",
+                            "precioProducto": "$8.000",
+                            "imagenProducto": "https://www.sweetysalado.com/wp-content/uploads/2016/07/DSC_0355N.jpg",
+                            "calificacionProducto": "3.7"
+                        } 
+                    ]
+                },
+                {
+                    "categoria": "Desayuno",
+                    "productos": [
+                        {
+                            "nombreProducto": "Pan de bono",
+                            "precioProducto": "$2.000",
+                            "imagenProducto": "https://www.rebanando.com/media/pandebono2-586x439_crop.jpg/rh/pandebono.jpg",
+                            "calificacionProducto": "4.0"
+                        },
+                         {
+                            "nombreProducto": "Almojabana",
+                            "precioProducto": "$2.500",
+                            "imagenProducto": "https://okdiario.com/img/2018/03/27/pan-bono-655x368.jpg",
+                            "calificacionProducto": "4.2"
+                        },
+                         {
+                            "nombreProducto": "Panqueques",
+                            "precioProducto": "$5.000",
+                            "imagenProducto": "https://t2.uc.ltmcdn.com/images/6/4/5/img_como_hacer_panqueques_sin_huevo_32546_600.jpg",
+                            "calificacionProducto": "4.8"
+                        } 
+                    ]  
+                },
+                {
+                    "categoria": "Bowl",
+                    "productos": [
+                        {
+                            "nombreProducto": "Bowl de carnes salteadas",
+                            "precioProducto": "$9.000",
+                            "imagenProducto": "https://placeralplato.com/files/2015/11/Carne-salteada-con-verduras.jpg",
+                            "calificacionProducto": "4.5"
+                        },
+                         {
+                            "nombreProducto": "Bowl vegetariano",
+                            "precioProducto": "$8.500",
+                            "imagenProducto": "https://www.goya.com/media/6411/rainbow-4.jpg?quality=80",
+                            "calificacionProducto": "3.5"
+                        },
+                         {
+                            "nombreProducto": "Bowl cubano",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://i0.wp.com/www.evseats.com/wp-content/uploads/2017/05/Cuban-Chicken-Black-Bean-Rice-Bowls.jpg?fit=1900%2C1897",
+                            "calificacionProducto": "3.6"
+                        } 
+                    ]  
+
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "Ensaladas Cafe",
+            "tipo": "Buffet",
+            "precio": "Desde $ 9.500", 
+            "tiempo": "8 minutos",
+            "urlImagen": "resources/Ensaladas cafe.jpg",
+            "categorias": [
+                {
+                    "categoria": "Mar",
+                    "productos": [
+                        {
+                            "nombreProducto": "Corvina al ajillo",
+                            "precioProducto": "$19.000",
+                            "imagenProducto": "https://www.recetas.com.pa/sites/default/files/2018-12/corvina%20al%20ajillo.jpg",
+                            "calificacionProducto": "2.7"
+                        },
+                         {
+                            "nombreProducto": "Langosta",
+                            "precioProducto": "$10.000",
+                            "imagenProducto": "https://www.hola.com/imagenes/cocina/recetas/20190717145995/langosta-mantequilla-perejil/0-702-412/langosta-m.jpg",
+                            "calificacionProducto": "2.0"
+                        },
+                         {
+                            "nombreProducto": "Sopa de camarones",
+                            "precioProducto": "$17.500",
+                            "imagenProducto": "https://www.goya.com/media/4224/peruvian-style-shrimp-soup.jpg?quality=80",
+                            "calificacionProducto": "3.2"
+                        }
+                    ]
+                },
+                {
+                    "categoria": "Bowl",
+                    "productos": [
+                        {
+                            "nombreProducto": "Bowl mixto",
+                            "precioProducto": "$8.500",
+                            "imagenProducto": "https://images.rappi.com/products/2091070022-1579281817853.jpg?d=128x90&e=webp",
+                            "calificacionProducto": "4.3"
+                        },
+                         {
+                            "nombreProducto": "Bowl de carne",
+                            "precioProducto": "$7.000",
+                            "imagenProducto": "https://www.cocinavital.mx/wp-content/uploads/2019/06/sushi-bowl-fajitas-res-cebolla-cambray.jpg",
+                            "calificacionProducto": "4.0"
+                        },
+                         {
+                            "nombreProducto": "Bowl con patacon",
+                            "precioProducto": "$8.000",
+                            "imagenProducto": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSXq43UUMhQTtHQmvYPIQsbJncvzTTLBkSm5mdFUi66E2dRZmCY&usqp=CAU",
+                            "calificacionProducto": "4.6"
+                        } 
+                    ]
+                },
+                {
+                    "categoria": "Desayuno",
+                    "productos": [
+                        {
+                            "nombreProducto": "Arepa con queso",
+                            "precioProducto": "$3.500",
+                            "imagenProducto": "https://media-cdn.tripadvisor.com/media/photo-s/10/1d/5d/a8/arepa-de-queso.jpg",
+                            "calificacionProducto": "4.5"
+                        },
+                         {
+                            "nombreProducto": "Galletas ducales",
+                            "precioProducto": "$2.500",
+                            "imagenProducto": "https://jumbocolombiafood.vteximg.com.br/arquivos/ids/177496-1000-1000/7702025133123-1.jpg?v=636117824426600000",
+                            "calificacionProducto": "4.7"
+                        },
+                         {
+                            "nombreProducto": "Arepa con queso y jamon",
+                            "precioProducto": "$5.000",
+                            "imagenProducto": "https://media-cdn.tripadvisor.com/media/photo-s/0e/5f/f2/8d/la-arepa-con-el-mejor.jpg",
+                            "calificacionProducto": "4.2"
+                        } 
+                    ]  
+                },
+                {
+                    "categoria": "Perros calientes",
+                    "productos": [
+                        {
+                            "nombreProducto": "Perro caliente clasico",
+                            "precioProducto": "$9.000",
+                            "imagenProducto": "https://elsumario.com/wp-content/uploads/2017/11/El-Sumario-3-11.jpg",
+                            "calificacionProducto": "4.4"
+                        },
+                         {
+                            "nombreProducto": "Perro caliente mexicano",
+                            "precioProducto": "$8.500",
+                            "imagenProducto": "https://mariobross.com.co/wp-content/uploads/2018/08/Mario-Bross-Perro-Mexicano.jpg",
+                            "calificacionProducto": "4.4"
+                        },
+                         {
+                            "nombreProducto": "Perro caliente fitnes",
+                            "precioProducto": "$12.000",
+                            "imagenProducto": "https://cdn2.salud180.com/sites/default/files/styles/medium/public/field/image/2013/10/hotdogsaludable1.jpg",
+                            "calificacionProducto": "4.7"
+                        } 
+                    ]  
+
+                }
+            ]
+        }
+
+    ]
+}

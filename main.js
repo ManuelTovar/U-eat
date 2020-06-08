@@ -19,3 +19,7 @@ function MoveLeft() {
     div.setAttribute('style', 'transform: translate(40rem); -webkit-transition: all .3s ease-in-out;');
 
 }
+
+function Message(){
+    alert("Página bajo construcción");
+}
